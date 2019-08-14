@@ -2,7 +2,7 @@
 % Please edit documentation in R/winopen.R
 \name{winopen}
 \alias{winopen}
-\title{Function to open a file or folder}
+\title{Function to open a file or directory}
 \usage{
 winopen(x)
 }
@@ -11,16 +11,16 @@ winopen(x)
 }
 \value{
 This function is primarily called for the side effect of opening a
-file or folder. It invisibly returns a normalized path to the item it
+file or directory It invisibly returns a normalized path to the item it
 opened, which is either \code{x} or a parent directory that exists on disk.
 }
 \description{
 This function will open the target path, \code{x},  with it's associated
-application, or with Windows Explorer if \code{x} is a folder
+application, or with Windows Explorer if \code{x} is a directory
 }
 \details{
-If the file or folder does not exist it will open the first parent
-folder that does exists.
+If the file or directory does not exist it will open the first parent
+directory that does exists.
 }
 \examples{
 \dontrun{

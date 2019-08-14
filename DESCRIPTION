@@ -1,7 +1,7 @@
 Package: slasher
 Type: Package
 Title: Package facilitate copying and pasting paths between R and other applications on Windows 
-Version: 0.1.0
+Version: 0.1.1
 Author: Ethan Plunkett
 Maintainer: Ethan Plunkett <ethan@plunkettworks.com>
 Description: This package allows you to fairly easily copy a path from Windows 
@@ -14,6 +14,7 @@ Description: This package allows you to fairly easily copy a path from Windows
     the target file in Windows.
 License: MIT + file LICENSE
 Encoding: UTF-8
+Imports: utils
 LazyData: true
 OS_type: windows
 RoxygenNote: 6.1.1

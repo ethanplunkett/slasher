@@ -13,6 +13,7 @@
 #' the modfied path into R. Conversely you could copy a path from your R code
 #' run \code{bslash()} and then paste into Explorer or other applications that
 #' expect a backslash.
+#' @importFrom utils writeClipboard readClipboard
 #' @export
 #' @rdname slasher
 fslash <- function(){
