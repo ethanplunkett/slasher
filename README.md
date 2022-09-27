@@ -2,7 +2,7 @@
 
 The goal of slasher is to facilitate working with paths with R in Windows
 
-There are FIVE trivial functions: fslash, bslash, fclip, bclip, and winopen.   
+There are five trivial functions: fslash, bslash, fclip, bclip, and winopen.   
 
 fslash converts all slashes in the clipboard to forward slashes while bslash converts them to backslashes.  Use fslash before pasting a path into R and bslash before pasting a path from your R code into most other Windows software.
 
